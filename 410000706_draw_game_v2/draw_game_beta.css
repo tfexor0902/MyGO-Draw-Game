@@ -1,0 +1,253 @@
+body{
+    background-color: rgb(39, 161, 161);
+    font-style: Georgia;
+    background-image:
+        radial-gradient(closest-side, rgb(119, 187, 221), rgba(235, 105, 78, 0)),
+        radial-gradient(closest-side, rgba(255, 136, 0, 1), rgba(243, 11, 164, 0)),
+        radial-gradient(closest-side, rgba(119, 221, 119, 1), rgba(235, 105 , 75, 0)),
+        radial-gradient(closest-side, rgba(255, 221, 136, 1), rgba(235, 105 , 75, 0)),
+        radial-gradient(closest-side, rgba(119, 119, 170, 1), rgba(235, 105 , 75, 0));
+    background-size: 
+        130vmax 130vmax,
+        80vmax 80vmax,
+        90vmax 90vmax,
+        110vmax 110vmax,
+        90vmax 90vmax;
+    background-position: 
+        -80vmax -80vmax,
+        60vmax -30vmax,
+        10vmax 10vmax,
+        -30vmax -10vmax,
+        50vmax 50vmax;
+    animation: colorChange 3s linear infinite; 
+}
+@keyframes colorChange {
+    0% {
+      background-position: -80vmax -80vmax, 60vmax -30vmax, 10vmax 10vmax, -30vmax -10vmax, 50vmax 50vmax;
+    }
+    20% {
+      background-position: 0vmax -80vmax, 60vmax -30vmax, 10vmax 10vmax, -30vmax -10vmax, 50vmax 50vmax;
+    }
+    40% {
+      background-position: 0vmax -80vmax, 30vmax -30vmax, 10vmax 10vmax, -30vmax -10vmax, 50vmax 50vmax;
+    }
+    60% {
+      background-position: 0vmax -80vmax, 30vmax -30vmax, 0vmax 10vmax, -30vmax -10vmax, 50vmax 50vmax;
+    }
+    80% {
+      background-position: 0vmax -80vmax, 30vmax -30vmax, 0vmax 10vmax, -10vmax -10vmax, 50vmax 50vmax;
+    }
+    100% {
+      background-position: 0vmax -80vmax, 30vmax -30vmax, 0vmax 10vmax, -10vmax -10vmax, 0vmax 50vmax;
+    }
+  }
+#slideshow {
+    width: 100%;
+    height: 500px;
+    background-size: 100% 100%; /* 調整圖片大小為100%寬度和100%高度 */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#slideshow p{
+    background-color: #3387bbd5;
+}
+#results {
+    width: auto;
+    border: solid 0.2px;
+    background-color: #3387bbd5;
+}
+#collection{
+    background-color: #3387bbd5;
+    background-attachment: auto;
+}
+button {
+    border-radius: 15px;
+    margin: 0;
+    height: 50px;
+    width: 250px;
+    align-items: center;
+    background-color: rgba(0, 255, 255, 0.5);
+}
+button:hover{
+    background-color: #036ce452;
+}
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adjust as needed */
+    background-color: rgba(0, 255, 255, 0.1);
+}
+.N_card {
+    border: 5px solid #ccc;
+    border-style: double;
+    background-color: rgb(249, 187, 121);
+    border-style: double;
+    border-width: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    width: 220px; 
+    height: 260px;
+    }
+.N_card img {
+    width: 210px; 
+    height: 270px;
+    max-height: 150px;
+    display: block;
+    margin: 0 auto;
+    }
+.N_card p{
+    color: rgb(5, 110, 203);
+    border: solid 5px;
+    border-color: #f84e4e;
+    border-style: double;
+    border-radius: 5px;
+    text-shadow: #ccc;
+}
+.R_card {
+    background-color: silver;
+    border-style: double;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgb(247, 203, 203);
+    padding: 10px;
+    margin: 5px;
+    border-width: 5px;
+    display: inline-block;
+    width: 220px; 
+    height: 260px;
+    } 
+.R_card img {
+    width: 210px;
+    height: 270px;
+    max-height: 150px;
+    display: block;
+    margin: 0 auto;
+    }
+.R_card p{
+    color: rgb(5, 110, 203);
+    border: solid 5px;
+    border-color: #f84e4e;
+    border-style: double;
+    border-radius: 5px;
+    text-shadow: #ccc;
+}
+.SSR_card {
+    background-color: #e493d0;
+    background-image:
+        radial-gradient(closest-side, rgb(249, 64, 64), rgba(235, 105, 78, 0)),
+        radial-gradient(closest-side, rgba(255, 165, 0, 1), rgba(243, 11, 164, 0)),
+        radial-gradient(closest-side, rgba(255, 255, 0, 1), rgba(235, 105 , 75, 0)),
+        radial-gradient(closest-side, rgba(0, 255, 0, 1), rgba(235, 105 , 75, 0)),
+        radial-gradient(closest-side, rgba(0, 127, 255, 1), rgba(235, 105 , 75, 0));
+    background-size: 
+        130vmax 130vmax,
+        80vmax 80vmax,
+        90vmax 90vmax,
+        110vmax 110vmax,
+        90vmax 90vmax;
+    background-position: 
+        -80vmax -80vmax,
+        60vmax -30vmax,
+        10vmax 10vmax,
+        -30vmax -10vmax,
+        50vmax 50vmax;
+    border-style: double;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    border-width: 5px;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    width: 220px;
+    height: 260px;
+    animation: movement 3s linear infinite; 
+}
+@keyframes movement {
+    0%, 100%{ 
+        background-position: 
+            -80vmax -80vmax,
+            60vmax -30vmax,
+            10vmax 10vmax,
+            -30vmax -10vmax,
+            50vmax 50vmax;
+    }
+    25%{
+        background-position: 
+            -5vmax -60vmax,
+            80vmax -30vmax,
+            20vmax 10vmax,
+            -10vmax -10vmax,
+            60vmax 50vmax;       
+    }
+    50%{
+        background-position: 
+            -50vmax -60vmax,
+            70vmax -30vmax,
+            30vmax 10vmax,
+            -20vmax -10vmax,
+            70vmax 50vmax;       
+    }
+    60%{
+        background-position: 
+            -60vmax -60vmax,
+            80vmax -30vmax,
+            20vmax 10vmax,
+            -10vmax -10vmax,
+            60vmax 50vmax;       
+    }
+}
+.SSR_card p{
+    background-color: #ccc;
+    border: solid 5px;
+    border-style: double;
+    border-radius: 5px;
+    text-shadow: #ccc;
+    border-color: linear-gradient(to right, red, blue);
+}
+.SR_card{
+    background-color: rgb(255, 244, 118);
+    border-color: rgb(228, 209, 0);
+    border-style: double;
+    border-radius: 5px;
+    border-width: 5px;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    width: 220px; 
+    height: 260px; 
+}
+
+.SR_card p {
+    color: rgb(171, 0, 0);
+    border: solid 5px;
+    border-style: double;
+    border-radius: 5px;
+    text-shadow: #ccc;
+    border-color: linear-gradient(to right, red, blue);
+}
+
+.SSR_card img, .SR_card img {
+    width: 210px;
+    height: 270px;
+    max-height: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+.ob_cards {
+    width: 220px;
+    height: 300px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
